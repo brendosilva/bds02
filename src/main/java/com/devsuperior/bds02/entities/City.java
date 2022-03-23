@@ -49,4 +49,13 @@ public class City {
 	public List<Event> getEvents() {
 		return events;
 	}
+
+	@Override
+	public String toString() {
+		return "City{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", events=" + events +
+				'}';
+	}
 }

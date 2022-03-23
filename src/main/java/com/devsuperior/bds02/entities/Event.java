@@ -75,4 +75,15 @@ public class Event {
 	public void setCity(City city) {
 		this.city = city;
 	}
+
+	@Override
+	public String toString() {
+		return "Event{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", date=" + date +
+				", url='" + url + '\'' +
+				", city=" + city +
+				'}';
+	}
 }
